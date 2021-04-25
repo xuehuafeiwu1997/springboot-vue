@@ -1,0 +1,1 @@
+package com.xmy.springbootvuebookdemo.entity;import lombok.Data;import org.apache.ibatis.annotations.Mapper;/** * @author xmy * @date 2021/4/25 6:05 下午 */@Datapublic class Book {    private Long id;    private String name;    private String author;}

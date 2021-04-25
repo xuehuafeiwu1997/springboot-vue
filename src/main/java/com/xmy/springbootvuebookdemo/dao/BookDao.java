@@ -1,0 +1,1 @@
+package com.xmy.springbootvuebookdemo.dao;import com.xmy.springbootvuebookdemo.entity.Book;import org.apache.ibatis.annotations.Mapper;import java.util.List;/** * @author xmy * @date 2021/4/25 6:07 下午 */@Mapperpublic interface BookDao {    List<Book> getAllBooks();}
